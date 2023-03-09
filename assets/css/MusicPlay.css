@@ -91,13 +91,14 @@
   }
   
   .control .btn {
-    color: var(--primary-color);
+    color: #573993;
     padding: 18px;
     font-size: 18px;
   }
   
   .control .btn.active {
-    color: #573993;
+    /* color: #573993; */
+    color: var(--primary-color);
   }
   
   .control .btn-toggle-play {
@@ -153,7 +154,7 @@
   }
   
   .song.active {
-    background-color: #9a7adf;
+    background-color: var(--primary-color);
   }
   
   .song:active {
